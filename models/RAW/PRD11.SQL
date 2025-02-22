@@ -1,0 +1,1 @@
+select * from DBT_DB.DBT_NISHANTHIRAHUL.PRD_11
