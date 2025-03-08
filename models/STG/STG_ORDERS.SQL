@@ -1,6 +1,6 @@
 
 select 
-    --ORDER FIELDS
+    --ORDER FIELDS 
     O.ORDERID, 
     O.ORDERDATE, 
     O.SHIPDATE, 
