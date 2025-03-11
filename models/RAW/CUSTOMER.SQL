@@ -1,7 +1,2 @@
-{{
-    config(
-        materialized='table'
-    )
-}}
 
-select * from RAW.GLOBALMART.CUSTOMER 
+select * from {{ source('dbt_learnings_1', 'CUSTOMER') }}

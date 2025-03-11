@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: dbt_learnings_1
+    database: RAW
+    schema: GLOBALMART
+    tables:
+      - name: CUSTOMER
+      - name: ORDERS
+      - name: Product
+      
+      
+
+
+      
