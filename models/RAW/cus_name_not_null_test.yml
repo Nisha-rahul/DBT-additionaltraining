@@ -1,0 +1,24 @@
+version: 2
+
+models:
+    - name: CUSTOMER
+      columns:
+          - name: customerid
+            tests:
+                 - not_null
+                 - unique
+          - name: Segment
+            tests:
+              - accepted_values:
+                  values: 
+                        - 'Consumer'
+                        - 'Home Office'
+                        - 'Corporate'
+                          
+                 
+                 
+
+
+          
+    
+      
