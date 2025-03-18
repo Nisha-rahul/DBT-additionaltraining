@@ -1,2 +1,2 @@
 
-select * from {{ source('dbt_learnings_1', 'CUSTOMER') }}
+select * from {{ source('dbtlearnings1', 'CUSTOMER') }}

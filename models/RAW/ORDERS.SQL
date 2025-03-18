@@ -1,3 +1,3 @@
 
-select * from {{ source('dbt_learnings_1', 'ORDERS') }}
+select * from {{ source('dbtlearnings1', 'ORDERS') }}
 
